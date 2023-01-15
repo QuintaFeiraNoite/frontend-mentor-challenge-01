@@ -103,15 +103,6 @@ picture img {
     cursor: pointer;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 @media (max-width: 615px) { 
     .card {
         display: flex;
@@ -142,4 +133,16 @@ picture img {
     .card-button {
         width: 100%
     }
+
+}
+
+.attribution {
+    margin-top: 5px;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
