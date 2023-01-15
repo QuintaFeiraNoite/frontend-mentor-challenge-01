@@ -97,6 +97,7 @@ picture img {
     background-color: #3D8168;
     border-radius: 10px;
     color: #FFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 
 .card-button:hover {
