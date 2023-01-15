@@ -2,3 +2,90 @@
     margin: 0;
     padding: 0;
 }
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+html {
+    background-color: #F2E3EB;
+}
+
+.card-container {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+}
+
+img {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    background-color: #FFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-head {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    line-height: 0.9;
+}
+
+.card-description {
+    font-size: 14px;
+    line-height: 1.6
+}
+
+.card-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-price-promo {
+    color: #3D8168;
+}
+
+.card-price-full {
+    text-decoration: line-through;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 45px;
+    width: 235px;
+    background-color: #3D8168;
+    border-radius: 10px;
+    color: #FFF;
+}
