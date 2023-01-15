@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +8,19 @@
 
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 html {
     background-color: #F2E3EB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
 }
 
 .card-container {
@@ -49,7 +57,8 @@ img {
 }
 
 .card-head {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -59,7 +68,7 @@ img {
 
 .card-description {
     font-size: 14px;
-    line-height: 1.6
+    line-height: 1.6;
 }
 
 .card-price {
@@ -89,3 +98,18 @@ img {
     border-radius: 10px;
     color: #FFF;
 }
+
+.card-button:hover {
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 615px) { }
