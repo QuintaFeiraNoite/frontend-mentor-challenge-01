@@ -24,8 +24,8 @@ h1, h2 {
 }
 
 .card-container {
-    width: 100vw;
-    height: 95vh;
+    min-width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,14 +34,14 @@ h1, h2 {
 
 .card {
     display: flex;
-    width: 600px;
+    width: 37.5rem;
 }
 
 picture img {
-    width: 300px;
+    width: 18.75rem;
     height: 450px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
 }
 
 .card-content {
@@ -50,15 +50,15 @@ picture img {
     justify-content: center;
     gap: 25px;
     background-color: #FFF;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    border-top-right-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
 }
 
 .card-head {
     letter-spacing: 4px;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
 }
 
@@ -67,7 +67,7 @@ picture img {
 }
 
 .card-description {
-    font-size: 14px;
+    font-size: 0.75rem;
     line-height: 1.6;
 }
 
@@ -93,7 +93,7 @@ picture img {
     justify-content: center;
     gap: 10px;
     height: 45px;
-    width: 235px;
+    width: 14.688rem;
     background-color: #3D8168;
     border-radius: 10px;
     color: #FFF;
@@ -111,24 +111,23 @@ picture img {
         width: 90vw;
     }
 
-
     picture img {
         height: 240px;
         width: 90vw;
         border-bottom-left-radius: 0;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-top-left-radius: 0.625rem;
+        border-top-right-radius: 0.625rem;
     }
 
     .card-content {
-        margin-top: -5px;
-        padding-top: 25px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 40px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
+        margin-top: -0.313rem;
+        padding-top: 1.563rem;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+        padding-bottom: 2.5rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.625rem;
+        border-bottom-left-radius: 0.625rem;
     }
 
     .card-button {
@@ -137,8 +136,14 @@ picture img {
 
 }
 
+@media (max-height: 719px) { 
+    .attribution {
+        display: none;
+    }
+}
+
 .attribution {
-    margin-top: 5px;
+    margin-top: -30px;
     font-size: 11px;
     width: 100%;
     text-align: center;
